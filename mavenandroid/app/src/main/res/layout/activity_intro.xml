@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="scan.di.uoa.gr.exampleappsoftdev.IntroActivity"
+    android:alignmentMode="alignBounds"
+    android:stretchColumns="1"
+    android:shrinkColumns="0"
+    android:padding="5dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    android:paddingBottom="5dp">
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.25">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Agents"
+            android:id="@+id/btnViewAgents"
+            android:width="0dp"
+            android:layout_weight="0.5" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Results"
+            android:id="@+id/btnViewAllResults"
+            android:width="0dp"
+            android:layout_weight="0.5" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.25">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="SA jobs"
+            android:id="@+id/btnSaJobs" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="SA results"
+            android:id="@+id/btnSAResults" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.25">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Add a new Job"
+            android:id="@+id/btnAddJobs" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="Delete a Job"
+            android:id="@+id/btnDeleteJobs" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:width="200dp"
+            android:text="Close"
+            android:id="@+id/btnCloseMenu" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:width="200dp"
+            android:text="Logout"
+            android:id="@+id/btnLogout" />
+    </TableRow>
+
+
+</TableLayout>
